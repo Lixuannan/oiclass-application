@@ -1,6 +1,6 @@
 # **OICLASS-APPLICATION**
 
-#### This project make oiclass.com as a local application to make TYOIERs use it more convenient.
+#### This project make oiclass.com as a local application to make *TYOIERs* use it more convenient.
 
 [English README](./README.md)      [简体中文](./README_zh.md)
 
