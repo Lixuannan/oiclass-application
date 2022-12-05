@@ -12,3 +12,19 @@
 | **MacOS**             | [github](https://github.com/Lixuannan/oiclass-application/raw/main/oiclass-macOS-x64.zip) [gitee](https://gitee.com/lixuannan/oiclass-application/raw/main/oiclass-macOS-x64.zip?lfs=1) | [github](https://github.com/Lixuannan/oiclass-application/raw/main/oiclass-macOS-arm64.zip) [gitee](https://gitee.com/lixuannan/oiclass-application/raw/main/oiclass-macOS-arm64.zip?lfs=1) | /                                                            | [github](https://github.com/Lixuannan/oiclass-application/raw/main/oiclass-macOS-universal.zip) [gitee](https://gitee.com/lixuannan/oiclass-application/raw/main/oiclass-macOS-universal.zip?lfs=1) |
 | **Linux**             | [github](https://github.com/Lixuannan/oiclass-application/raw/main/oiclass-linux-x64.zip) [gitee](https://gitee.com/lixuannan/oiclass-application/raw/main/oiclass-linux-x64.zip?lfs=1) | [github](https://github.com/Lixuannan/oiclass-application/raw/main/oiclass-linux-arm64.zip) [gitee](https://gitee.com/lixuannan/oiclass-application/raw/main/oiclass-linux-arm64.zip?lfs=1) | [github](https://github.com/Lixuannan/oiclass-application/raw/main/oiclass-linux-armv7l.zip) [gitee](https://gitee.com/lixuannan/oiclass-application/raw/main/oiclass-linux-armv7l.zip?lfs=1) | /                                                            |
 
+## Local Packaging:
+
+```shell
+# for macOS
+git clone https://github.com/lixuannan/oiclass-application.git
+cd oiclass-application
+./build
+```
+
+```shell
+# for other system
+git clone https://github.com/lixuannan/oiclass-application.git
+cd oiclass-application
+python3 build.py
+```
+
