@@ -34,8 +34,8 @@ def main(build_all: bool = False):
     build_all_cmd = [["osx", "x64"], ["osx", "arm64"], ["osx", "universal"],
                      ["windows", "x64"], ["windows", "arm64"],
                      ["linux", "x64"], ["linux", "arm64"], ["linux", "armv7l"]]
-    build_one_cmd = {"Windows": "nativefier \"http://www.oiclass.com\" --name \"oiclass\" --icon icon.ico",
-                     "other": "nativefier \"http://www.oiclass.com\" --name \"oiclass\" --icon icon.png"}
+    build_one_cmd = {"Windows": "nativefier \"http://www.oiclass.com\" --name \"oiclass\" --icon icon.ico --portable",
+                     "other": "nativefier \"http://www.oiclass.com\" --name \"oiclass\" --icon icon.png --portable"}
     logging.info("Start to build\n"
                  "开始打包应用")
     if build_all:
@@ -45,7 +45,7 @@ def main(build_all: bool = False):
             else:
                 icon = "icon.png"
             for j in os.popen(
-                    f"nativefier \"http://www.oiclass.com\" --name \"oiclass\" "
+                    f"nativefier \"http://www.oiclass.com\" --name \"oiclass\" --portable"
                     f"--icon {icon} -p {i[0]} -a {i[1]}"):
                 if "err" in j:
                     logging.error(j)
