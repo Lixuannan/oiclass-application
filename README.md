@@ -1,4 +1,5 @@
 # **OICLASS-APPLICATION**
+## This project is currently rebuilding, that meams this version gonna be the last version power by _nativefier_
 
 #### This project make oiclass.com as a local application to make *TYOIERs* use it more convenient.
 

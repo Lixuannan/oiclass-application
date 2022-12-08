@@ -1,4 +1,5 @@
 # **OICLASS-APPLICATION**
+## 项目正在重构，以下版本将是由 _nativefier_ 构建的最后一版
 
 #### 本项目将 OICLASS 进行本地封装，方便 *TYOIER* 们使用，希望大家多 **fork** 多 **star**
 
@@ -24,11 +25,5 @@
 | **MacOS**       | [github](https://github.com/Lixuannan/oiclass-application/releases/download/2022-12-08/oiclass-darwin-x64-portable.zip) [gitee](https://gitee.com/lixuannan/oiclass-application/releases/download/2022-12-08/oiclass-darwin-x64-portable.zip) [gitlab](https://gitlab.com/leexuannan1/oiclass-application/uploads/3f1858927a2b0118d714a163ec4f0cfd/oiclass-darwin-x64-portable.zip) [filedoge](https://filedoge.com/download/6fac3a8c2f59e49c2654185d2c3411ba2c9a09c34daf7d6452edb75326186dd32a872bf7bb9944b89475) | [github](https://github.com/Lixuannan/oiclass-application/releases/download/2022-12-08/oiclass-darwin-arm64-portable.zip) [gitee](https://gitee.com/lixuannan/oiclass-application/releases/download/2022-12-08/oiclass-darwin-arm64-portable.zip) [gitlab](https://gitlab.com/leexuannan1/oiclass-application/uploads/41913af9a213eaf47d89b9b2bb95116d/oiclass-darwin-arm64-portable.zip) [filedoge](https://filedoge.com/download/d5a6831428a83dfd3288ada6b6dfc3547dac89eca2622641c433dd962a135d2cfaa8831a14759749ba6b) | /                                                            | [github ](https://github.com/Lixuannan/oiclass-application/releases/download/2022-12-08/oiclass-darwin-universal.zip) [filedoge](https://filedoge.com/download/af14fafb1808f828f080350bc7209ba3d8bd95a184ba79e8024c35328b2bc3c0bd0c70a30439aa678688) |
 | **Linux**       | [github](https://github.com/Lixuannan/oiclass-application/releases/download/2022-12-08/oiclass-linux-x64-portable.zip) [gitee ](https://gitee.com/lixuannan/oiclass-application/releases/download/2022-12-08/oiclass-linux-x64-portable.zip) [gitlab](https://gitlab.com/leexuannan1/oiclass-application/uploads/0d83811f94ad200f441eebadb3999016/oiclass-linux-x64-portable.zip) [filedoge](https://filedoge.com/download/d9386e60f83be9d42d24673cf1ade9d33a13f905786d3e2924a866a1a4aa569b24566f5f3f41394c1b34) | [github](https://github.com/Lixuannan/oiclass-application/releases/download/2022-12-08/oiclass-linux-arm64-portable.zip) [gitee ](https://gitee.com/lixuannan/oiclass-application/releases/download/2022-12-08/oiclass-linux-arm64-portable.zip) [gitlab](https://gitlab.com/leexuannan1/oiclass-application/uploads/60b5e8f9d67dcf2941b61ee6f37e8595/oiclass-linux-arm64-portable.zip) [filedoge](https://filedoge.com/download/875601a3078e6da5e934e82f982fb5a0a5fab055dff04b1cfa5855df020c669bec8eca00331642113864) | [github](https://github.com/Lixuannan/oiclass-application/releases/download/2022-12-08/oiclass-linux-armv7l-portable.zip) [gitlab](https://gitlab.com/leexuannan1/oiclass-application/uploads/3d6bc3bf1245c68047c1bc8ca65f09c2/oiclass-linux-armv7l-portable.zip) [filedoge](https://filedoge.com/download/ff31ead3db1c7feb1c48c9a9a25fad554ada52d87c08015e58ac22df96c4afb00a7389bdbdf4a7b86693) | /                                                            |
 
-## 本地打包：
 
-```shell
-git clone https://github.com/lixuannan/oiclass-application.git
-cd oiclass-application
-python3 build.py
-```
 
