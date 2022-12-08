@@ -42,6 +42,8 @@ def main(build_all: bool = False):
         for i in build_all_cmd:
             if i[0] == "windows":
                 icon = "icon.ico"
+            elif i[0] == "osx":
+                icon = "icon.icns"
             else:
                 icon = "icon.png"
             for j in os.popen(
