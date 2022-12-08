@@ -25,14 +25,6 @@
 ## Local Packaging:
 
 ```shell
-# for macOS
-git clone https://github.com/lixuannan/oiclass-application.git
-cd oiclass-application
-./build
-```
-
-```shell
-# for other system
 git clone https://github.com/lixuannan/oiclass-application.git
 cd oiclass-application
 python3 build.py

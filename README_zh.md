@@ -27,14 +27,6 @@
 ## 本地打包：
 
 ```shell
-# 对于 macOS
-git clone https://github.com/lixuannan/oiclass-application.git
-cd oiclass-application
-./build
-```
-
-```shell
-# 对于 其他系统
 git clone https://github.com/lixuannan/oiclass-application.git
 cd oiclass-application
 python3 build.py
