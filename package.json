@@ -2,15 +2,17 @@
   "name": "oiclass-application",
   "description": "Local application of oiclass.com",
   "author": "lixuannan<codingcow@tuta.io>",
+  "repository": "https://github.com/lixuannan/oiclass-application.git",
   "main": "main.js",
   "version": "v0.1.0",
   "devDependencies": {
-    "electron": "^21.3.3"
+    "electron": ">=21.3.3",
+    "electron-builder": "^23.6.0"
   },
   "build": {
     "productName": "oiclass",
     "appId": "oiclass",
-    "copyright": "lixuannan",
+    "copyright": "No copyright, copy it everywhere you want.",
     "directories": {
       "output": "dist"
     },
@@ -126,7 +128,7 @@
       "icon": "icon.png"
     },
     "dmg": {
-      "backgroundColor": "#aaaaaa",
+      "backgroundColor": "#eeeeee",
       "icon": "icon.icns"
     },
     "pkg": {
@@ -139,6 +141,8 @@
     }
   },
   "scripts": {
-    "build": "electron-builder"
+    "build": "npm run clean && ./node_modules/.bin/electron-builder",
+    "clean": "rm -rf dist",
+    "start": "./node_modules/.bin/electron ."
   }
 }
