@@ -9,7 +9,7 @@
   },
   "build": {
     "productName": "oiclass",
-    "appId": "com.codingcow.oiclass",
+    "appId": "oiclass",
     "copyright": "lixuannan",
     "directories": {
       "output": "dist"
@@ -46,19 +46,19 @@
     "linux": {
       "target": [{
         "target": "deb",
-        "arch": ["x64", "ia32", "arm64", "armv7l"]
+        "arch": ["x64", "arm64", "armv7l"]
       }, {
         "target": "rpm",
-        "arch": ["x64", "ia32", "arm64", "armv7l"]
+        "arch": ["x64", "arm64", "armv7l"]
       }, {
         "target": "freebsd",
-        "arch": ["x64", "ia32", "arm64", "armv7l"]
+        "arch": ["x64", "arm64", "armv7l"]
       }, {
         "target": "AppImage",
-        "arch": ["x64", "ia32", "arm64", "armv7l"]
+        "arch": ["x64", "arm64", "armv7l"]
       }, {
         "target": "zip",
-        "arch": ["x64", "ia32", "arm64", "armv7l"]
+        "arch": ["x64", "arm64", "armv7l"]
       }],
       "icon": "icon.png"
     },
@@ -76,6 +76,6 @@
     }
   },
   "scripts": {
-    "build": "electron-builder"
+    "build": "electron-builder -mwl"
   }
 }
