@@ -76,6 +76,6 @@
     }
   },
   "scripts": {
-    "build": "electron-builder -mwl"
+    "build": "electron-builder"
   }
 }
