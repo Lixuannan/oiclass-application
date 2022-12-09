@@ -15,51 +15,114 @@
       "output": "dist"
     },
     "mac": {
-      "target": [{
-        "target": "dmg",
-        "arch": ["x64", "arm64", "universal"]
-      }, {
-        "target": "pkg",
-        "arch": ["x64", "arm64", "universal"]
-      }, {
-        "target": "zip",
-        "arch": ["x64", "arm64", "universal"]
-      }],
+      "target": [
+        {
+          "target": "dmg",
+          "arch": [
+            "x64",
+            "arm64",
+            "universal"
+          ]
+        },
+        {
+          "target": "pkg",
+          "arch": [
+            "x64",
+            "arm64",
+            "universal"
+          ]
+        },
+        {
+          "target": "zip",
+          "arch": [
+            "x64",
+            "arm64",
+            "universal"
+          ]
+        }
+      ],
       "icon": "icon.icns"
     },
     "win": {
-      "target": [{
-        "target": "msi",
-        "arch": ["x64", "ia32", "arm64"]
-      }, {
-        "target": "nsis",
-        "arch": ["x64", "ia32", "arm64"]
-      }, {
-        "target": "portable",
-        "arch": ["x64", "ia32", "arm64"]
-      }, {
-        "target": "zip",
-        "arch": ["x64", "ia32", "arm64"]
-      }],
+      "target": [
+        {
+          "target": "msi",
+          "arch": [
+            "x64",
+            "ia32",
+            "arm64"
+          ]
+        },
+        {
+          "target": "nsis",
+          "arch": [
+            "x64",
+            "ia32",
+            "arm64"
+          ]
+        },
+        {
+          "target": "portable",
+          "arch": [
+            "x64",
+            "ia32",
+            "arm64"
+          ]
+        },
+        {
+          "target": "zip",
+          "arch": [
+            "x64",
+            "ia32",
+            "arm64"
+          ]
+        }
+      ],
       "icon": "icon.ico"
     },
     "linux": {
-      "target": [{
-        "target": "deb",
-        "arch": ["x64", "arm64", "armv7l"]
-      }, {
-        "target": "rpm",
-        "arch": ["x64", "arm64", "armv7l"]
-      }, {
-        "target": "freebsd",
-        "arch": ["x64", "arm64", "armv7l"]
-      }, {
-        "target": "AppImage",
-        "arch": ["x64", "arm64", "armv7l"]
-      }, {
-        "target": "zip",
-        "arch": ["x64", "arm64", "armv7l"]
-      }],
+      "target": [
+        {
+          "target": "deb",
+          "arch": [
+            "x64",
+            "arm64",
+            "armv7l"
+          ]
+        },
+        {
+          "target": "rpm",
+          "arch": [
+            "x64",
+            "arm64",
+            "armv7l"
+          ]
+        },
+        {
+          "target": "freebsd",
+          "arch": [
+            "x64",
+            "arm64",
+            "armv7l"
+          ]
+        },
+        {
+          "target": "AppImage",
+          "arch": [
+            "x64",
+            "arm64",
+            "armv7l"
+          ]
+        },
+        {
+          "target": "zip",
+          "arch": [
+            "x64",
+            "arm64",
+            "armv7l"
+          ]
+        }
+      ],
       "icon": "icon.png"
     },
     "dmg": {
