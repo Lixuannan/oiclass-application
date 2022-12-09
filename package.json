@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "electron": "^22.0.0"
+  },
+  "name": "oiclass-application",
+  "main": "main.js",
+  "version": "v0.1.0"
+}
