@@ -1,8 +1,81 @@
 {
-  "dependencies": {
-    "electron": "^22.0.0"
-  },
   "name": "oiclass-application",
+  "description": "Local application of oiclass.com",
+  "author": "lixuannan<codingcow@tuta.io>",
   "main": "main.js",
-  "version": "v0.1.0"
+  "version": "v0.1.0",
+  "devDependencies": {
+    "electron": "^21.3.3"
+  },
+  "build": {
+    "productName": "oiclass",
+    "appId": "com.codingcow.oiclass",
+    "copyright": "lixuannan",
+    "directories": {
+      "output": "dist"
+    },
+    "mac": {
+      "target": [{
+        "target": "dmg",
+        "arch": ["x64", "arm64", "universal"]
+      }, {
+        "target": "pkg",
+        "arch": ["x64", "arm64", "universal"]
+      }, {
+        "target": "zip",
+        "arch": ["x64", "arm64", "universal"]
+      }],
+      "icon": "icon.icns"
+    },
+    "win": {
+      "target": [{
+        "target": "msi",
+        "arch": ["x64", "ia32", "arm64"]
+      }, {
+        "target": "nsis",
+        "arch": ["x64", "ia32", "arm64"]
+      }, {
+        "target": "portable",
+        "arch": ["x64", "ia32", "arm64"]
+      }, {
+        "target": "zip",
+        "arch": ["x64", "ia32", "arm64"]
+      }],
+      "icon": "icon.ico"
+    },
+    "linux": {
+      "target": [{
+        "target": "deb",
+        "arch": ["x64", "ia32", "arm64", "armv7l"]
+      }, {
+        "target": "rpm",
+        "arch": ["x64", "ia32", "arm64", "armv7l"]
+      }, {
+        "target": "freebsd",
+        "arch": ["x64", "ia32", "arm64", "armv7l"]
+      }, {
+        "target": "AppImage",
+        "arch": ["x64", "ia32", "arm64", "armv7l"]
+      }, {
+        "target": "zip",
+        "arch": ["x64", "ia32", "arm64", "armv7l"]
+      }],
+      "icon": "icon.png"
+    },
+    "dmg": {
+      "backgroundColor": "#aaaaaa",
+      "icon": "icon.icns"
+    },
+    "pkg": {
+      "license": "eula.txt"
+    },
+    "nsis": {
+      "installerIcon": "icon.ico",
+      "uninstallerIcon": "icon.ico",
+      "license": "eula.txt"
+    }
+  },
+  "scripts": {
+    "build": "electron-builder"
+  }
 }
