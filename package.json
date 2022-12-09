@@ -142,7 +142,7 @@
   },
   "scripts": {
     "build": "npm run clean && ./node_modules/.bin/electron-builder",
-    "clean": "rm -rf dist",
+    "clean": "sudo rm -rf dist",
     "start": "./node_modules/.bin/electron ."
   }
 }
